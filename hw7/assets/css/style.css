@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body{
+	background-color: #bbccdd !important;	
+}
+
+h2{
+	padding: 10px;
+}
+
+#output{
+	margin: 20px;
+}
+
+
+.clearFloat{
+	clear:both;
+}

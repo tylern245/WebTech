@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body{
+	background-color: #bbccdd !important;	
+}
+
+.activeLink{
+	color: black;
+}
+
+.banner{
+	background-color: #6c9ed0;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 30px;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+.navMain{
+	width: 100%;
+}
+
+.navActive{		
+	background-color: #6c9ed0;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 25%;
+}
+
+.navItem{
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 25%;
+}
+
+.navActive:hover{
+	background-color: #6c9ed0; 
+}
+
+.navItem:hover{
+	background-color: #6c9ed0; 
+}
+
+.div1{
+	padding: 25px;
+	margin:10px;
+}
+
+.contact{
+	text-align: center;
+}
+
+table, tr, td{
+	border: 2px solid black;
+}
+
+.fill-in-form{
+	width: 50%;
+	border: 2px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+
+	/* force centering a div */
+/* 	transform: translate(50%); */
+}
+
+.form-group{
+	width: 50%;
+	display:inline-block;
+}
+
+.help-block{
+	font-weight: bold;
+}
+
+.clearFloat{
+	clear:both;
+}

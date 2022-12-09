@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<title>Contact</title>
+</head>
+<body>
+
+<div class="banner">Welcome To My Homepage!</div>
+<div class="navMain row">
+	<div class="navItem col"><a href="index.html">Home</a></div>
+	<div class="navItem col"><a href="resume.html">Resume</a></div>
+	<div class="navActive col"><a class="activeLink">Contact</a></div>
+	<div class="navItem col"><a href="miscellaneous.html">Miscellaneous</a></div>
+</div>
+
+<div class="contact div1">
+    <div class="div1">
+        <b>Personal E-mail</b>
+        <br>tylern225@gmail.com
+    </div>
+    <div class="div1">
+        <b>School E-mail</b>
+        <br>tyler.nguyen@my.utsa.edu
+    </div>
+    <div class="div1">
+        <b>Phone Number</b>
+        <br>123-456-7890
+        <br>(fake bc I don't want to show my real number)
+    </div>
+    <div class="div1">
+        <b>Links</b>
+        <br><a target="_blank" href="https://www.linkedin.com/in/tylernguyen11/">LinkedIn</a>
+        <br><a target="_blank" href="https://github.com/tylern245">GitHub</a>
+    </div>
+</div>
+<div class="fill-in-form">
+	<h3 align="">Fill out contact form</h3>
+	<div class="form-group">
+		<label>First Name:</label>
+		<input class="form-control" input="text" id="fname" onBlur="checkName(this.value, this.id)">
+		<p class="help-block" id="fnameHelp"></p>
+	</div>
+	<div class="form-group">
+		<label>Last Name:</label>
+		<input class="form-control" input="text" id="lname" onBlur="checkName(this.value, this.id)">
+		<p class="help-block" id="lnameHelp"></p>
+	</div>
+	<div class="form-group">
+		<label>Email:</label>
+		<input class="form-control" type="text" id="email" onBlur="checkEmail(this.value, this.id)">
+		<p class="help-block" id="emailHelp"></p>
+	</div>
+	<div class="form-group">
+		<label>Username:</label>
+		<input class="form-control" input="text" id="username" onBlur="checkUsername(this.value, this.id)">
+		<p class="help-block" id="usernameHelp"></p>
+	</div>
+	<div class="form-group">
+		<label>Comments:</label>
+		<textarea class="form-control" id="comment" onBlur="checkComments(this.value, this.id)"></textarea>
+		<p class="help-block" id="commentHelp"></p>
+	</div>
+</div>	
+
+</body>
+
+<script src="assets/js/validation.js"></script>
+</html>

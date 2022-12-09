@@ -1,0 +1,98 @@
+/* CSS Document */
+
+body{
+	background-color: #bbccdd !important;	
+}
+
+.activeLink{
+	color: black;
+}
+
+.banner{
+	background-color: #6c9ed0;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 30px;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+.navMain{
+	width: 100%;
+}
+
+.navActive{		
+	background-color: #6c9ed0;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 25%;
+}
+
+.navItem{
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 25%;
+	transition: background-color .3s ease-in-out;
+}
+
+.navItem:hover{
+	background-color: #6c9ed0; 
+}
+
+.div1{
+	padding: 25px;
+	margin:10px;
+}
+
+.contact{
+	text-align: center;
+}
+
+table{
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+th, tr, td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.fill-in-form-div{
+	width: 50%;
+	/* border: 2px solid black; */
+	margin: 0 auto;
+	padding: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+	/* force centering a div */
+/* 	transform: translate(50%); */
+}
+
+#fill-in-form{
+	border: 2px solid black;
+}
+
+.form-group{
+	width: 50%;
+	display:inline-block;
+}
+
+label{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.help-block{
+	font-weight: bold;
+}
+
+.clearFloat{
+	clear:both;
+}

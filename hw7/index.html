@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>HW 7</title>
+</head>
+	<h2>Calculator</h2>
+<body>
+	<div class="row m-2 p-2">
+		<div class="col-sm-2">
+			<input type="text" class="form-control" id="number1">
+		</div>
+		<div class="form-group col-sm-1">
+			<select class="form-control" id="operation">
+				<option value=""></option>
+				<option value="add">+</option>
+				<option value="subtract">-</option>
+				<option value="multiply">*</option>
+				<option value="divide">/</option>
+			</select>
+		</div>
+		<div class="form-group col-sm-2">
+			<input type="text" class="form-control" id="number2">
+		</div>
+	</div>
+	<div class="row p-2 m-2">
+		<button type="button" class="btn btn-secondary m-2" id="clear" onClick="clearInput()">Clear</button>
+		<button type="button" class="btn btn-success m-2" id="submit" onClick="calcFunc()">Calculate</button>
+	</div>
+	<h3 id="output"></h3>
+</body>
+<script type="text/javascript" src="assets/js/calculate.js"></script>
+</html>
